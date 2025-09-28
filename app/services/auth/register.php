@@ -32,7 +32,7 @@ function getListUser() {
     }
 
     $hashedPassword = password_hash($password, PASSWORD_BCRYPT);     // melakukan hassing password
-    $baseUrl = "/e-cashier-native"; 
+    $baseUrl = "/demo-e-cashier-native"; 
     
     if (count($userAdmin) > 0) { // melakukan validasi role admin
         $role = "cashier";
